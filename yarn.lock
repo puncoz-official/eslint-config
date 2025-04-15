@@ -156,6 +156,9 @@ __metadata:
   dependencies:
     eslint: "npm:^9.24.0"
     eslint-config-flat-gitignore: "npm:^2.1.0"
+    eslint-plugin-antfu: "npm:^3.1.1"
+    eslint-plugin-unused-imports: "npm:^4.1.4"
+    globals: "npm:^16.0.0"
   languageName: unknown
   linkType: soft
 
@@ -321,6 +324,28 @@ __metadata:
   peerDependencies:
     eslint: ^9.5.0
   checksum: 10c0/ed043b2bbbaf14fcc063343888810292bfc3e671d69d9406085a102e4b60b6787a06602da289eb3e71a67ace201b69203a86998f0a3b5de8213706690d8b101b
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-antfu@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "eslint-plugin-antfu@npm:3.1.1"
+  peerDependencies:
+    eslint: "*"
+  checksum: 10c0/72a70114b550ff8159be43fdd451ab1d82bf886a02c1e21d2432279c872d72b42c31ad85c82406f7af6eb1b52742660946f9bc99806ed02d3a9e72ad39f2bbda
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unused-imports@npm:^4.1.4":
+  version: 4.1.4
+  resolution: "eslint-plugin-unused-imports@npm:4.1.4"
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^8.0.0-0 || ^7.0.0 || ^6.0.0 || ^5.0.0
+    eslint: ^9.0.0 || ^8.0.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: 10c0/3899f64b0e8b23fa6b81e2754fc10f93d8741e051d70390a8100ca39af7878bde8625f234b76111af69562ef2512104b52c3703e986ccb3ac9adc07911896acf
   languageName: node
   linkType: hard
 
@@ -511,6 +536,13 @@ __metadata:
   version: 14.0.0
   resolution: "globals@npm:14.0.0"
   checksum: 10c0/b96ff42620c9231ad468d4c58ff42afee7777ee1c963013ff8aabe095a451d0ceeb8dcd8ef4cbd64d2538cef45f787a78ba3a9574f4a634438963e334471302d
+  languageName: node
+  linkType: hard
+
+"globals@npm:^16.0.0":
+  version: 16.0.0
+  resolution: "globals@npm:16.0.0"
+  checksum: 10c0/8906d5f01838df64a81d6c2a7b7214312e2216cf65c5ed1546dc9a7d0febddf55ffa906cf04efd5b01eec2534d6f14859a89535d1a68241832810e41ef3fd5bb
   languageName: node
   linkType: hard
 

@@ -1,7 +1,8 @@
 "use strict"
 
-import process      from "node:process"
-import ignoreConfig from "./configs/ignores.mjs"
+import process          from "node:process"
+import ignoreConfig     from "./configs/ignores.mjs"
+import javascriptConfig from "./configs/javascript.mjs"
 
 /**
  * @param {?{
@@ -30,6 +31,7 @@ const eslintConfig = (options = {}) => {
     },
 
     ...ignoreConfig(ignores),
+    ...javascriptConfig(),
   ]
 }
 
