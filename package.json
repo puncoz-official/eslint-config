@@ -1,4 +1,8 @@
 {
   "name": "@puncoz/eslint-config",
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "eslint": "^9.24.0",
+    "eslint-config-flat-gitignore": "^2.1.0"
+  }
 }
